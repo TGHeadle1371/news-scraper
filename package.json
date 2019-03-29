@@ -1,31 +1,21 @@
 {
-  "name": "news-scraper",
+  "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "News scraper application",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TGHeadle1371/news-scraper.git"
-  },
-  "keywords": [
-    "Scraper",
-    "Mongoose",
-    "Cheerio"
-  ],
-  "author": "Thomas Headle",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TGHeadle1371/news-scraper/issues"
-  },
-  "homepage": "https://github.com/TGHeadle1371/news-scraper#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
-    "express": "^4.16.4",
+    "express": "^4.16.3",
     "express-handlebars": "^3.0.2",
-    "mongoose": "^5.4.20"
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1"
   }
 }
