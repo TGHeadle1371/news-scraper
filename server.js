@@ -39,7 +39,9 @@ mongoose.Promise = Promise;
 
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
 
-mongoose.connect(MONGODB_URI, {useNewUrlParser: true});
+mongoose.connect(MONGODB_URI, {
+    useNewUrlParser: true
+});
 
 var db = mongoose.connection;
 
