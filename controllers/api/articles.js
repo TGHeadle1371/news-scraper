@@ -3,7 +3,7 @@ const express = require('express'),
     router = express.Router(),
     request = require('request'),
     cheerio = require('cheerio'),
-    Article = require('../../models/article');
+    Article = require('../../models/Article');
 
 
 // get all articles from database
