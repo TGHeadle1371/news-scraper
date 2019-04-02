@@ -5,8 +5,8 @@ const express = require('express'),
     router = express.Router(),
     request = require('request'),
     cheerio = require('cheerio'),
-    Article = require('../../models/article'),
-    Note = require('../../models/note');
+    Article = require('../../models/Article'),
+    Note = require('../../models/Note');
 
 // get all notes
 router.get('/', function (req, res) {
