@@ -3,6 +3,11 @@
 
 }
 
+.btn {
+    min-width: 8em;
+    min-height: 1em;
+}
+
 footer {
     position: fixed;
     left: 0;
@@ -35,8 +40,19 @@ footer {
     padding-bottom: 3px;
 }
 
+.row {
+    margin: 0;
+    top: 50%;
+    left: 50%;
+
+}
+
 .copyright {
     float: left;
+}
+
+.navbar-inverse .navbar-brand {
+    overflow: auto;
 }
 
 #apiBtn {
@@ -44,17 +60,20 @@ footer {
     border-radius: 5px;
 }
 
-#navbar-img {
-    float: left;
-    margin-left: 0;
-    width: 6em;
-    height: 4em;
-    padding-right: 5px;
-    border-radius: 2px;
+#brandRow {
+    margin-bottom: 10px;
+    white-space: nowrap
 }
 
-#navbar {
-    height: 250px;
+#navTabRow {
+    position: inherit; 
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap
+}
+
+#wrapper {
+    margin-bottom: 4em;
 }
 
 @media (min-width: 1px) {

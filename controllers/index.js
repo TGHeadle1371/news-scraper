@@ -19,8 +19,8 @@ router.get('/', function (req, res) {
             } else {
                 console.log(articles);
                 let hbsObj = {
-                    title: 'Time to Scrape some Rock and Ice',
-                    subtitle: 'Climbing News Daily',
+                    title: 'Climbing News Daily',
+                    subtitle: 'Time to Scrape some Rock and Ice',
                     articles: articles
                 };
                 res.render('index', hbsObj);
@@ -42,8 +42,8 @@ router.get('/saved', function (req, res) {
             } else {
                 console.log(articles);
                 let hbsObj = {
-                    title: 'Time to Scrape some Rock and Ice',
-                    subtitle: 'Climbing News Daily',
+                    title: 'Climbing News Daily',
+                    subtitle: 'Time to Scrape some Rock and Ice',
                     articles: articles
                 };
                 res.render("saved", hbsObj);
