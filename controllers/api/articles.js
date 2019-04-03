@@ -10,10 +10,6 @@ const express = require('express'),
 router.get('/', function (req, res) {
     Article
         .find({})
-        .where('saved').equals(false)
-        .where('deleted').equals(false)
-        .sort('-date')
-        .limit(20)
         .exec(function (error, docs) {
             if (error) {
                 console.log(error);
