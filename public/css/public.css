@@ -13,6 +13,7 @@ footer {
     color: white;
     padding-top: 5px;
 }
+
 .navbar-default .navbar-nav>.active>a {
     border-radius: 5px;
 }
@@ -50,6 +51,10 @@ footer {
     height: 4em;
     padding-right: 5px;
     border-radius: 2px;
+}
+
+#navbar {
+    height: 250px;
 }
 
 @media (min-width: 1px) {
