@@ -14,7 +14,7 @@ This application has been deployed to Heroku and can be ran locally.
 
 ### Home Page
 
-![Screen shot](public/images/home.png)
+![Screen shot](public/images/newsScraper.png)
 
 ### Saved Articles Page
 
