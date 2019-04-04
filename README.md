@@ -12,20 +12,21 @@ This application has been deployed to Heroku and can be ran locally.
 
 ## Page Views
 
+### Home Page
 ![Screen shot](public/images/home.png)
-- Home Page
 
+### Saved Articles Page
 ![Screen shot](public/images/saved.png)
-- Saved Articles Page
 
+### Notes Modal
 ![Screen shot](public/images/notes.png)
-- Notes Modal
 
+### API Page
 ![Screen shot](public/images/api.png)
-- API Page
 
+### JSON parsed API call Page
 ![Screen shot](public/images/json.png)
-- JSON parsed API call Page
+
 
 ## Technology used to build News-Scraper
 
